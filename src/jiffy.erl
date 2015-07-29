@@ -58,7 +58,7 @@
 
 -spec decode(iolist() | binary()) -> jiffy_decode_result().
 decode(Data) ->
-    decode(Data, []).
+    decode(Data, [return_maps]).
 
 
 -spec decode(iolist() | binary(), decode_options()) -> json_value().

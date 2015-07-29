@@ -10,7 +10,7 @@
 ErlOpts = [{d, 'JIFFY_DEV'}],
 
 Proper = [
-    {proper, ".*", {git, "git://github.com/manopapad/proper.git", "master"}}
+    {proper, ".*", {git, "https://github.com/imdeps/proper.git", "release"}}
 ],
 
 ConfigPath = filename:dirname(SCRIPT),
